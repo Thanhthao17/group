@@ -44,10 +44,7 @@ namespace BTN
 
         private void đăngNhậpToolStripMenuItem_Click(object sender, EventArgs e)
         {
-             Dangnhap dn = new Dangnhap();
-            this.Hide();
-            dn.ShowDialog();
-            this.Show();
+             
         }
     }
 }
