@@ -40,6 +40,10 @@ namespace BTN
                 tBoxUserName.Text = "";
                 tBoxPassWord.Text = "";
             }
+             fGiaodien f = new fGiaodien();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
